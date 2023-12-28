@@ -1,0 +1,313 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:  rgb(180, 180, 180);
+    padding: 20px 88px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    height:50px;
+  }
+/* 
+  div.logs{
+    display: flex;
+    justify-content: flex-start;
+    margin-left:-80px;
+    align-items: baseline;
+    margin: 10px;
+  } */
+  /* #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   */
+  /* #navbar li {
+    list-style-type: none;
+    padding: 0 20px;
+    position: relative;
+  }
+   */
+  /* #navbar li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease-in-out;
+  } */
+  /* #navbar li a:hover,
+  #navbar li a.active {
+    color: #17cf97;
+  } */
+  /* #navbar li a:hover::after,
+  #navbar li a:hover::after {
+    content: "";
+    width: 50%;
+    height: 2px;
+    background: #17cf97;
+    bottom: -4px;
+    left: 20px;
+    position: absolute;
+  } */
+
+  /* #mobile {
+   display: none;
+  }
+  @media screen and (max-width: 769px) {
+    #navbar {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: fixed;
+      top: 50px;
+      right: -300px;
+      width: 300px;
+      height: 100vh;
+      background: #2a322a;
+      box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+      padding: 40px 0 0 10px;
+      transition: 0.3s ease-in-out;
+    } */
+  
+    /* #navbar.active {
+      right:0px;
+    }
+    #navbar li {
+      margin-bottom: 25px;
+    }
+    #mobile {
+      color: white;
+      display: block;
+    }
+  }
+   */
+/* 
+  h1{
+    color:white;
+    font-size: 20px;
+    width:200px;
+    margin:0px;
+  } */
+
+  /* #icons1{
+    margin-left: -70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:290px;
+    }
+    
+
+
+  @media screen and (max-width: 769px){
+    h4{
+        color:white;
+        font-size: 10px;
+       
+      } */
+/*       
+#icons1{
+    margin-left: -70px;
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   width:250px;
+   }
+ 
+  }
+
+  h4{
+    color:white;
+    font-size: 20px;
+   
+  } */
+  
+/*-------navbar-------------------*/
+div.container-fluid{
+ padding: 0px;
+}
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+#navbar{
+  background-color: rgb(241, 239, 239);
+}
+#heading{
+  margin:30px;
+  font-size: 15px; 
+}
+#conatiner2{
+  display: inline-block;
+}
+#images{
+  width:40px;
+  height:40px;
+}
+#navitems{
+  margin-left: 200px;
+}
+div.nav-item{
+  margin-left: 20px;
+}
+#button{
+  margin-left: 100px;
+  background:maroon;
+  border:none;
+}
+.navbar2{
+  background: rgb(245, 245, 248);
+  height:35px;
+}
+#basic-navbar-nav{
+  margin-left: 700px;
+}
+#line{
+  margin-top: 25px;
+  height:20px;
+  background-color: rgb(183, 174, 174);
+  width: 1px;
+}
+
+.d-flex div{
+  margin-left: 5px;
+}
+.fa-regular.fa-user:hover{
+  color: yellow;
+  cursor: pointer;
+
+}
+.fas.fa-shopping-cart:hover{
+  color: yellow;
+  cursor: pointer;
+
+}
+#nav{
+  padding-left: 50px;
+  margin-left: 0px;
+}
+
+#blog {
+  position: relative; /* Needed for positioning the dropdown menu */
+}
+#pages {
+  position: relative; /* Needed for positioning the dropdown menu */
+}
+
+#blog.dropdown-menu {
+  display: none; /* Hide the dropdown by default */
+  position: absolute;
+  top: 100%; /* Position below the #home element */
+  left: 0;
+  background-color: #873e3e; /* Adjust styles as needed */
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+}
+#pages.dropdown-menu {
+  display: none; /* Hide the dropdown by default */
+  position: absolute;
+  top: 100%; /* Position below the #home element */
+  left: 0;
+  background-color: #873e3e; /* Adjust styles as needed */
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ 
+}
+
+#blog:hover .dropdown-menu {
+  display: block;
+  text-decoration: none; 
+
+}
+
+#pages:hover .dropdown-menu {
+  display: block;
+  text-decoration: none; 
+
+}
+.mt-2 span:hover{
+  color:yellow;
+}
+/* styles.css or your custom stylesheet */
+/* styles.css or your custom stylesheet */
+#sidebar{
+  position: relative;
+}
+.nav-item a {
+  color: black;
+  text-decoration: none;
+  text-underline-offset: none;
+  /* Add position relative to create a stacking context */
+}
+
+.nav-item a::after {
+  content: "";
+  width: 50%;
+  height: 2px;
+  position: absolute;
+  background-color: blue;
+  bottom: -3px;
+  left: 0;
+  line-height: 2px;
+  display: none;
+  transition: width 0.3s; /* Add transition for smooth effect */
+}
+
+.nav-item a:hover::after {
+
+  display: block; /* Show the pseudo-element on hover */
+  width: 100%; /* Increase the width to make it visible */
+}
+
+.nav-item a:hover {
+  color: blue; /* Change text color to blue on hover */
+}
+/* styles.css or your custom stylesheet */
+/* styles.css or your custom stylesheet */
+.dropdown:hover .dropdown-menu {
+  display: block; /* Show the dropdown menu when the parent is hovered */
+}
+
+/* styles.css or your custom stylesheet */
+#sidebar {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 110%; /* Position the dropdown menu at the end of the container border */
+  background-color: #eae2e2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width:400px;
+  border-radius: none;
+}
+
+#text:hover + .dropdown-menu {
+  display: block; /* Show the dropdown menu when the #text is hovered */
+}
+.card-text p{
+  color:blue;
+}
+
+.card-text p:hover{
+  color:black;
+  cursor: pointer;
+}
+a.btn{
+  margin-top: -300px;
+}
+
